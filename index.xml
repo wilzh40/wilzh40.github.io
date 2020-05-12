@@ -30,5 +30,16 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Hello_worlds</title>
+      <link>http://wilzh40.github.io/blog/hello_worlds/</link>
+      <pubDate>Sat, 14 Jul 2018 18:21:41 -0700</pubDate>
+      
+      <guid>http://wilzh40.github.io/blog/hello_worlds/</guid>
+      <description>On a bored Saturday, I realized that my old website (with all my iOS app descriptions and occasionally cringey high school blog posts) died when I spilled a cup of free coffee I got from the 6th floor of the Gates-Hillman center at CMU.
+Most expensive cup of coffee in my life.
+Now that I have a brand new laptop and hopefully much better coffee control, I&amp;rsquo;ve decided to create a new website.</description>
+    </item>
+    
   </channel>
 </rss>
