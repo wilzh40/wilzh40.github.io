@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Wilson Zhao">
+<meta name="description" content="After 5 (or is it 6?) months of social isolation, I realized I had an overflowing surplus of time. After a brief relapse into Warcraft III, I decided that surplus time could be better invested elsewhere. That &ldquo;elsewhere&rdquo; turned out to be music.
+I wanted to get better at sound design and add more samples into my collection. Yesterday, I had an epiphany: I knew how to code. The following script takes a youtube URL and extracts the stems&ndash;vocals, bassline, drums, and other stuff&ndash;into a predetermined folder.">
+
+<meta property="og:title" content="Youtube to Stems" />
+<meta property="og:description" content="After 5 (or is it 6?) months of social isolation, I realized I had an overflowing surplus of time. After a brief relapse into Warcraft III, I decided that surplus time could be better invested elsewhere. That &ldquo;elsewhere&rdquo; turned out to be music.
+I wanted to get better at sound design and add more samples into my collection. Yesterday, I had an epiphany: I knew how to code. The following script takes a youtube URL and extracts the stems&ndash;vocals, bassline, drums, and other stuff&ndash;into a predetermined folder." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://wilzh40.github.io/blog/youtube-to-stems/" />
+
+
+
+<meta property="article:published_time" content="2020-07-30T20:05:00-07:00"/>
+
+<meta property="article:modified_time" content="2020-07-30T20:31:31-07:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+     Youtube to Stems 
+
+</title>
+<link rel="canonical" href="http://wilzh40.github.io/blog/youtube-to-stems/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="http://wilzh40.github.io/css/reset.css?t=2020-07-30%2020%3a31%3a50.350445961%20-0700%20PDT%20m%3d%2b0.053832315">
+    <link rel="stylesheet" href="http://wilzh40.github.io/css/pygments.css?t=2020-07-30%2020%3a31%3a50.350445961%20-0700%20PDT%20m%3d%2b0.053832315">
+    <link rel="stylesheet" href="http://wilzh40.github.io/css/main.css?t=2020-07-30%2020%3a31%3a50.350445961%20-0700%20PDT%20m%3d%2b0.053832315">
+    
+        <link rel="stylesheet" href="http://wilzh40.github.io/css/override.css?t=2020-07-30%2020%3a31%3a50.350445961%20-0700%20PDT%20m%3d%2b0.053832315">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="http://wilzh40.github.io/img/leaf.ico"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                
+                <a href="http://wilzh40.github.io/"><img class="avatar" src="http://wilzh40.github.io/img/profile.png" srcset="http://wilzh40.github.io/img/profile.png 1x"></a>
+            
+            <a href="http://wilzh40.github.io/"><div class="name">Wilson Zhao</div></a>
+            
+              <h3 class="self-intro">23-year-old stereotypical dude in tech</h3>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-blog"><a href="http://wilzh40.github.io/blog/"><span>Blog</span></a></li>
+                    
+                        <li class="nav-about"><a href="http://wilzh40.github.io/about/"><span>About</span></a></li>
+                    
+                        <li class="nav-resume"><a href="http://wilzh40.github.io/resume.pdf"><span>Resume</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+        
+            <a href="//github.com/wilzh40" target="_blank" rel="noopener"><img class="icon" src="http://wilzh40.github.io/img/github.svg" alt="github" /></a>
+        
+
+        
+
+        
+
+	
+
+        
+
+        
+
+        
+            <a href="//linkedin.com/in/wilsonyzhao" target="_blank" rel="noopener"><img class="icon" src="http://wilzh40.github.io/img/linkedin.svg" alt="linkedin" /></a>
+        
+
+        
+
+        
+            <a href="//instagram.com/wilzh40" target="_blank" rel="noopener"><img class="icon" src="http://wilzh40.github.io/img/instagram.svg" alt="instagram" /></a>
+        
+
+        
+
+        
+
+        
+            <a href="mailto:wilzh40@gmail.com"><img class="icon" src="http://wilzh40.github.io/img/email.svg" alt="email" /></a>
+        
+
+        
+
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Youtube to Stems
+
+</div>
+
+                    <div class="initials"><a href="http://wilzh40.github.io">ad</a></div>
+                </div>
+                <div class="meta">
+                    
+                    <div class="date" title='Thu Jul 30 2020 20:05:00 PDT'>Jul 30, 2020</div>
+                    
+                    
+		    <div class="reading-time"><div class="middot"></div>2 minutes read</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<p>After 5 (or is it 6?) months of social isolation, I realized I had an overflowing surplus of time. After a brief relapse into Warcraft III, I decided that surplus time could be better invested elsewhere. That &ldquo;elsewhere&rdquo; turned out to be music.</p>
+
+<p>I wanted to get better at sound design and add more samples into my collection. Yesterday, I had an epiphany: I knew how to code. The following script takes a youtube URL and extracts the stems&ndash;vocals, bassline, drums, and other stuff&ndash;into a predetermined folder. I then added this folder to the &ldquo;data&rdquo; section of FL studio for easy sample searching.</p>
+
+
+<figure>
+    
+        <img src="http://wilzh40.github.io/ox-hugo/flstudio.png" />
+    
+    
+</figure>
+
+
+<p>This marks my first official foray into bash scripting since college (and also using my skills for something other than generating capital for my company).</p>
+
+<h2 id="prereqs">Prereqs</h2>
+
+<ol>
+<li><p>Install <a href="https://github.com/deezer/spleeter">Spleeter</a>, an ML model that splits stems. Follow the link&rsquo;s instructions if you don&rsquo;t have conda.</p>
+
+<pre><code class="language-bash">conda install -c conda-forge spleeter
+</code></pre></li>
+
+<li><p>Install <a href="http://www.youtube.com/watch?v=%5FHSylqgVYQI">ytdl</a>, a script that downloads a youtube video</p>
+
+<pre><code class="language-bash">npm -g install ytdl
+</code></pre></li>
+</ol>
+
+<h2 id="the-script">The script</h2>
+
+<p>Copy the following into your <code>.{zsh,bash}rc</code> and <code>source</code> it.</p>
+
+<p><a id="code-snippet--spleet"></a></p>
+
+<pre><code class="language-bash">spleet() {
+    mkdir -p ~/Documents/Stems/
+    spleeter separate -i $1 -p spleeter:4stems -o ~/Documents/Stems/
+}
+
+yt() {
+    local name=`ytdl $1 -i | head -n 1 | awk -F &quot;: &quot; '{print $2}'`
+    local ename=`printf '%q' &quot;$name&quot;`
+    local defaultdir=&quot;$HOME/Music/ytdl&quot;
+    mkdir -p defaultdir
+    local defaultloc=&quot;$defaultdir/$ename&quot;
+    local loc=&quot;${2:-$defaultloc}&quot;
+    echo &quot;Downloading $ename from $1 to $loc&quot;
+    ytdl $1 | ffmpeg -i pipe:0 -b:a 192K -vn $loc.wav
+    echo &quot;$loc.wav&quot;
+}
+
+ytd() {
+    local loc = `yt $1`
+    spleet $1
+}
+</code></pre>
+
+<h2 id="usage">Usage</h2>
+
+<p><code>ytd &lt;URL&gt;</code> - Downloads and split the URL</p>
+
+<p><code>yt &lt;URL&gt; &lt;OPTIONAL_DESTINATION&gt;</code> - Downloads the wav of a youtube URL</p>
+
+<p><code>spleet &lt;path_to_wav&gt;</code> - Splits a wav into 4 stems</p>
+
+<h2 id="things-i-learned">Things I learned</h2>
+
+<ul>
+<li>Functions &gt; aliases.</li>
+<li>With <code>$1,$2,...$n</code> and <code>${2:-value}</code> you can make full-featured CLI applications all within bash in a matter of seconds.</li>
+<li><code>$*</code> means all the arguments to a command.</li>
+<li>Backticks (``) allow you to execute subcommands and store them in values.</li>
+<li><code>awk</code> is a swiss army knife for piping out of one command into another.</li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+
+<p>DM me if you&rsquo;re interested in going crate-digging (AKA clicking on obscure youtube links and finding cool samples).
+Hope this was useful.</p>
+
+                <br>
+                
+                <p class="back-to-posts"><a href="http://wilzh40.github.io/blog">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-65382413-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+
+</body>
+</html>
+
