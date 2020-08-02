@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recipes on Wilson Zhao</title>
+    <link>http://wilzh40.github.io/recipes/</link>
+    <description>Recent content in Recipes on Wilson Zhao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 22 Aug 2015 06:42:21 -0700</lastBuildDate>
+    
+	<atom:link href="http://wilzh40.github.io/recipes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ratatouille</title>
+      <link>http://wilzh40.github.io/recipes/cookbook-ratatouille/</link>
+      <pubDate>Sat, 01 Aug 2020 16:44:00 -0700</pubDate>
+      
+      <guid>http://wilzh40.github.io/recipes/cookbook-ratatouille/</guid>
+      <description>Ingredients  4 tomatoes/6 roma tomatoes 1 green squash 1 yellow squash 1 zuccinni Assorted colored pepers Things you should always have: onions, garlic, olive oil, butter, S&amp;amp;P, chicken stock Aromatics: rosemary, thyme  Directions  Mandolin veggies at 1/8&amp;rdquo;? The thinner it is, the fancier it is. Use a sharp knife on tomatoes instead. Submerge tomatoes boiling water for 30s to make them easier to peel. Red Pepper Soup  Knob of butter + olive oil.</description>
+    </item>
+    
+    <item>
+      <title>Recipes</title>
+      <link>http://wilzh40.github.io/recipes/recipes/</link>
+      <pubDate>Sat, 22 Aug 2015 06:42:21 -0700</pubDate>
+      
+      <guid>http://wilzh40.github.io/recipes/recipes/</guid>
+      <description>Not intended for external consumption.</description>
+    </item>
+    
+  </channel>
+</rss>

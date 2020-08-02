@@ -13,10 +13,10 @@
     
     <item>
       <title>Ratatouille</title>
-      <link>http://wilzh40.github.io/blog/ratatouille/</link>
+      <link>http://wilzh40.github.io/recipes/cookbook-ratatouille/</link>
       <pubDate>Sat, 01 Aug 2020 16:44:00 -0700</pubDate>
       
-      <guid>http://wilzh40.github.io/blog/ratatouille/</guid>
+      <guid>http://wilzh40.github.io/recipes/cookbook-ratatouille/</guid>
       <description>Ingredients  4 tomatoes/6 roma tomatoes 1 green squash 1 yellow squash 1 zuccinni Assorted colored pepers Things you should always have: onions, garlic, olive oil, butter, S&amp;amp;P, chicken stock Aromatics: rosemary, thyme  Directions  Mandolin veggies at 1/8&amp;rdquo;? The thinner it is, the fancier it is. Use a sharp knife on tomatoes instead. Submerge tomatoes boiling water for 30s to make them easier to peel. Red Pepper Soup  Knob of butter + olive oil.</description>
     </item>
     
@@ -67,6 +67,40 @@ I wanted to get better at sound design and learn how to recreate song I like. Ye
       <description>On a bored Saturday, I realized that my old website (with all my iOS app descriptions and occasionally cringey high school blog posts) died when I spilled a cup of free coffee I got from the 6th floor of the Gates-Hillman center at CMU.
 Most expensive cup of coffee in my life.
 Now that I have a brand new laptop and hopefully much better coffee control, I&amp;rsquo;ve decided to create a new website.</description>
+    </item>
+    
+    <item>
+      <title>Recipes</title>
+      <link>http://wilzh40.github.io/recipes/recipes/</link>
+      <pubDate>Sat, 22 Aug 2015 06:42:21 -0700</pubDate>
+      
+      <guid>http://wilzh40.github.io/recipes/recipes/</guid>
+      <description>Not intended for external consumption.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://wilzh40.github.io/about/</link>
+      <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://wilzh40.github.io/about/</guid>
+      <description>I attended Mission San Jose High School from 2011-2015.
+I attended Carnegie Mellon University from 2015-2018.
+I graduated one semester early to solo travel for 4.5 months.
+Currently working @ Google.
+I own a Yamaha Reface CS. Trying to learn sound design and music production.
+I was the head TA of 07-131 at Carnegie Mellon University, a class about practical tooling in computer science.
+Some of my responbilities include:
+ Preparing and giving lectures to the entire freshman CS class Teaching practical topics such as Vim, Git, Bash, etc.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>http://wilzh40.github.io/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wilzh40.github.io/home/</guid>
+      <description></description>
     </item>
     
   </channel>

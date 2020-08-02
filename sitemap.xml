@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://wilzh40.github.io/blog/ratatouille/</loc>
-    <lastmod>2020-08-01T17:09:48-07:00</lastmod>
+    <loc>http://wilzh40.github.io/recipes/cookbook-ratatouille/</loc>
+    <lastmod>2020-08-01T17:24:44-07:00</lastmod>
   </url>
   
   <url>
@@ -28,13 +28,8 @@
   </url>
   
   <url>
-    <loc>http://wilzh40.github.io/blog/</loc>
-    <lastmod>2020-08-01T17:09:48-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://wilzh40.github.io/</loc>
-    <lastmod>2020-08-01T17:09:48-07:00</lastmod>
+    <lastmod>2020-08-01T17:24:44-07:00</lastmod>
   </url>
   
   <url>
@@ -43,11 +38,27 @@
   </url>
   
   <url>
-    <loc>http://wilzh40.github.io/categories/</loc>
+    <loc>http://wilzh40.github.io/blog/</loc>
+    <lastmod>2015-08-22T06:42:21-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://wilzh40.github.io/tags/</loc>
+    <loc>http://wilzh40.github.io/recipes/</loc>
+    <lastmod>2015-08-22T06:42:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wilzh40.github.io/recipes/recipes/</loc>
+    <lastmod>2015-08-22T06:42:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wilzh40.github.io/about/</loc>
+    <lastmod>2015-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wilzh40.github.io/home/</loc>
   </url>
   
 </urlset>
