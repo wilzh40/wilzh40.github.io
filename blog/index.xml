@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Wilson Zhao</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Wilson Zhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 30 Jul 2020 20:05:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 16:44:00 -0700</lastBuildDate>
     
 	<atom:link href="http://wilzh40.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ratatouille</title>
+      <link>http://wilzh40.github.io/blog/ratatouille/</link>
+      <pubDate>Sat, 01 Aug 2020 16:44:00 -0700</pubDate>
+      
+      <guid>http://wilzh40.github.io/blog/ratatouille/</guid>
+      <description>Ingredients  4 tomatoes/6 roma tomatoes 1 green squash 1 yellow squash 1 zuccinni Assorted colored pepers Things you should always have: onions, garlic, olive oil, butter, S&amp;amp;P, chicken stock Aromatics: rosemary, thyme  Directions  Mandolin veggies at 1/8&amp;rdquo;? The thinner it is, the fancier it is. Use a sharp knife on tomatoes instead. Submerge tomatoes boiling water for 30s to make them easier to peel. Red Pepper Soup  Knob of butter + olive oil.</description>
+    </item>
     
     <item>
       <title>Youtube to Stems</title>
@@ -46,7 +55,7 @@ I wanted to get better at sound design and learn how to recreate song I like. Ye
       <pubDate>Tue, 28 May 2019 16:35:00 -0700</pubDate>
       
       <guid>http://wilzh40.github.io/blog/cats-of-the-middle-east/</guid>
-      <description></description>
+      <description>!Taken at the highest mountain of Petra, above the monastery !Ancient Byzantine pillars outside the Ayasofya !Steps in the Christian Quarter of old Jerusalem !On some motorcycle out of Bauhaus Hostel in Istanbul !No clue but its a grumpy cat</description>
     </item>
     
     <item>

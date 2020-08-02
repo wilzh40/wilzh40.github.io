@@ -17,22 +17,8 @@ I wanted to get better at sound design and learn how to recreate song I like. Ye
 I wanted to get better at sound design and learn how to recreate song I like. Yesterday, I had an epiphany: I knew how to code. The following script takes a youtube URL and extracts the stems&ndash;vocals, bassline, drums, and other stuff&ndash;into a predetermined folder." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://wilzh40.github.io/blog/youtube-to-stems/" />
-
-
-
-<meta property="article:published_time" content="2020-07-30T20:05:00-07:00"/>
-
-<meta property="article:modified_time" content="2020-07-30T20:37:23-07:00"/>
-
-
-
-
-
-
-
-
-
-
+<meta property="article:published_time" content="2020-07-30T20:05:00-07:00" />
+<meta property="article:modified_time" content="2020-08-01T16:28:34-07:00" />
 
 
 <title>
@@ -59,11 +45,11 @@ I wanted to get better at sound design and learn how to recreate song I like. Ye
 
 
     
-    <link rel="stylesheet" href="http://wilzh40.github.io/css/reset.css?t=2020-07-30%2020%3a37%3a27.650644116%20-0700%20PDT%20m%3d%2b0.232166472">
-    <link rel="stylesheet" href="http://wilzh40.github.io/css/pygments.css?t=2020-07-30%2020%3a37%3a27.650644116%20-0700%20PDT%20m%3d%2b0.232166472">
-    <link rel="stylesheet" href="http://wilzh40.github.io/css/main.css?t=2020-07-30%2020%3a37%3a27.650644116%20-0700%20PDT%20m%3d%2b0.232166472">
+    <link rel="stylesheet" href="http://wilzh40.github.io/css/reset.css?t=2020-08-01%2017%3a11%3a11.606524%20-0700%20PDT%20m%3d%2b0.155012101">
+    <link rel="stylesheet" href="http://wilzh40.github.io/css/pygments.css?t=2020-08-01%2017%3a11%3a11.606524%20-0700%20PDT%20m%3d%2b0.155012101">
+    <link rel="stylesheet" href="http://wilzh40.github.io/css/main.css?t=2020-08-01%2017%3a11%3a11.606524%20-0700%20PDT%20m%3d%2b0.155012101">
     
-        <link rel="stylesheet" href="http://wilzh40.github.io/css/override.css?t=2020-07-30%2020%3a37%3a27.650644116%20-0700%20PDT%20m%3d%2b0.232166472">
+        <link rel="stylesheet" href="http://wilzh40.github.io/css/override.css?t=2020-08-01%2017%3a11%3a11.606524%20-0700%20PDT%20m%3d%2b0.155012101">
     
 
 
@@ -202,76 +188,56 @@ I wanted to get better at sound design and learn how to recreate song I like. Ye
                 </div>
             </div>
             <div class="markdown">
-                
-
-<p>After 5 (or is it 6?) months of social isolation, I realized I had an overflowing surplus of time. After a brief relapse into Warcraft III, I decided that surplus time could be better invested elsewhere. That &ldquo;elsewhere&rdquo; turned out to be music.</p>
-
+                <p>After 5 (or is it 6?) months of social isolation, I realized I had an overflowing surplus of time. After a brief relapse into Warcraft III, I decided that surplus time could be better invested elsewhere. That &ldquo;elsewhere&rdquo; turned out to be music.</p>
 <p>I wanted to get better at sound design and learn how to recreate song I like. Yesterday, I had an epiphany: I knew how to code. The following script takes a youtube URL and extracts the stems&ndash;vocals, bassline, drums, and other stuff&ndash;into a predetermined folder. I then added this folder to the &ldquo;data&rdquo; section of FL studio for easy sample searching.</p>
-
-
 <figure>
-    
-        <img src="http://wilzh40.github.io/ox-hugo/flstudio.png" />
-    
-    
+    <img src="http://wilzh40.github.io/ox-hugo/flstudio.png"
+         alt="Figure 1: I should probably learn Ableton&amp;hellip;"/> <figcaption>
+            <p>Figure 1: I should probably learn Ableton&hellip;</p>
+        </figcaption>
 </figure>
 
-
 <p>This marks my first official foray into bash scripting since college (and also using my skills for something other than generating capital for my company).</p>
-
 <h2 id="prereqs">Prereqs</h2>
-
 <ol>
-<li><p>Install <a href="https://github.com/deezer/spleeter">Spleeter</a>, an ML model that splits stems. Follow the link&rsquo;s instructions if you don&rsquo;t have conda.</p>
-
-<pre><code class="language-bash">conda install -c conda-forge spleeter
-</code></pre></li>
-
-<li><p>Install <a href="http://www.youtube.com/watch?v=%5FHSylqgVYQI">ytdl</a>, a script that downloads a youtube video</p>
-
-<pre><code class="language-bash">npm -g install ytdl
-</code></pre></li>
+<li>
+<p>Install <a href="https://github.com/deezer/spleeter">Spleeter</a>, an ML model that splits stems. Follow the link&rsquo;s instructions if you don&rsquo;t have conda.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">conda install -c conda-forge spleeter
+</code></pre></div></li>
+<li>
+<p>Install <a href="http://www.youtube.com/watch?v=%5FHSylqgVYQI">ytdl</a>, a script that downloads a youtube video</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">npm -g install ytdl
+</code></pre></div></li>
 </ol>
-
 <h2 id="the-script">The script</h2>
-
 <p>Copy the following into your <code>.{zsh,bash}rc</code> and <code>source</code> it.</p>
-
-<p><a id="code-snippet--spleet"></a></p>
-
-<pre><code class="language-bash">spleet() {
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">spleet<span class="o">()</span> <span class="o">{</span>
     mkdir -p ~/Documents/Stems/
-    spleeter separate -i $1 -p spleeter:4stems -o ~/Documents/Stems/
-}
+    spleeter separate -i <span class="nv">$1</span> -p spleeter:4stems -o ~/Documents/Stems/
+<span class="o">}</span>
 
-yt() {
-    local name=`ytdl $1 -i | head -n 1 | awk -F &quot;: &quot; '{print $2}'`
-    local ename=`printf '%q' &quot;$name&quot;`
-    local defaultdir=&quot;$HOME/Music/ytdl&quot;
+yt<span class="o">()</span> <span class="o">{</span>
+    <span class="nb">local</span> <span class="nv">name</span><span class="o">=</span><span class="sb">`</span>ytdl <span class="nv">$1</span> -i <span class="p">|</span> head -n <span class="m">1</span> <span class="p">|</span> awk -F <span class="s2">&#34;: &#34;</span> <span class="s1">&#39;{print $2}&#39;</span><span class="sb">`</span>
+    <span class="nb">local</span> <span class="nv">ename</span><span class="o">=</span><span class="sb">`</span><span class="nb">printf</span> <span class="s1">&#39;%q&#39;</span> <span class="s2">&#34;</span><span class="nv">$name</span><span class="s2">&#34;</span><span class="sb">`</span>
+    <span class="nb">local</span> <span class="nv">defaultdir</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/Music/ytdl&#34;</span>
     mkdir -p defaultdir
-    local defaultloc=&quot;$defaultdir/$ename&quot;
-    local loc=&quot;${2:-$defaultloc}&quot;
-    echo &quot;Downloading $ename from $1 to $loc&quot;
-    ytdl $1 | ffmpeg -i pipe:0 -b:a 192K -vn $loc.wav
-    echo &quot;$loc.wav&quot;
-}
+    <span class="nb">local</span> <span class="nv">defaultloc</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$defaultdir</span><span class="s2">/</span><span class="nv">$ename</span><span class="s2">&#34;</span>
+    <span class="nb">local</span> <span class="nv">loc</span><span class="o">=</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">2</span><span class="k">:-</span><span class="nv">$defaultloc</span><span class="si">}</span><span class="s2">&#34;</span>
+    <span class="nb">echo</span> <span class="s2">&#34;Downloading </span><span class="nv">$ename</span><span class="s2"> from </span><span class="nv">$1</span><span class="s2"> to </span><span class="nv">$loc</span><span class="s2">&#34;</span>
+    ytdl <span class="nv">$1</span> <span class="p">|</span> ffmpeg -i pipe:0 -b:a 192K -vn <span class="nv">$loc</span>.wav
+    <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$loc</span><span class="s2">.wav&#34;</span>
+<span class="o">}</span>
 
-ytd() {
-    local loc = `yt $1`
-    spleet $1
-}
-</code></pre>
-
-<h2 id="usage">Usage</h2>
-
+ytd<span class="o">()</span> <span class="o">{</span>
+    <span class="nb">local</span> <span class="nv">loc</span> <span class="o">=</span> <span class="sb">`</span>yt <span class="nv">$1</span><span class="sb">`</span>
+    spleet <span class="nv">$1</span>
+<span class="o">}</span>
+</code></pre></div><h2 id="usage">Usage</h2>
 <p><code>ytd &lt;URL&gt;</code> - Downloads and split the URL</p>
-
 <p><code>yt &lt;URL&gt; &lt;OPTIONAL_DESTINATION&gt;</code> - Downloads the wav of a youtube URL</p>
-
 <p><code>spleet &lt;path_to_wav&gt;</code> - Splits a wav into 4 stems</p>
-
 <h2 id="things-i-learned">Things I learned</h2>
-
 <ul>
 <li>Functions &gt; aliases.</li>
 <li>With <code>$1,$2,...$n</code> and <code>${2:-value}</code> you can make full-featured CLI applications all within bash in a matter of seconds.</li>
@@ -279,11 +245,9 @@ ytd() {
 <li>Backticks (``) allow you to execute subcommands and store them in values.</li>
 <li><code>awk</code> is a swiss army knife for piping out of one command into another.</li>
 </ul>
-
 <h2 id="notes">Notes</h2>
-
 <p>DM me if you&rsquo;re interested in going crate-digging (AKA clicking on obscure youtube links and finding cool samples).
-Hope this was useful.</p>
+Hope this was useful, please enjoy responsibly. More cool stuff to come.</p>
 
                 <br>
                 
@@ -300,7 +264,7 @@ Hope this was useful.</p>
 
 
 
-<script>
+<script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
