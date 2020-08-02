@@ -2,68 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wilson Zhao</title>
-    <link>http://www.wilsonzhao.com/</link>
+    <link>https://www.wilsonzhao.com/</link>
     <description>Recent content on Wilson Zhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 01 Aug 2020 16:44:00 -0700</lastBuildDate>
     
-	<atom:link href="http://www.wilsonzhao.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.wilsonzhao.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ratatouille</title>
-      <link>http://www.wilsonzhao.com/recipes/cookbook-ratatouille/</link>
+      <link>https://www.wilsonzhao.com/recipes/cookbook-ratatouille/</link>
       <pubDate>Sat, 01 Aug 2020 16:44:00 -0700</pubDate>
       
-      <guid>http://www.wilsonzhao.com/recipes/cookbook-ratatouille/</guid>
+      <guid>https://www.wilsonzhao.com/recipes/cookbook-ratatouille/</guid>
       <description>Ingredients  4 tomatoes/6 roma tomatoes 1 green squash 1 yellow squash 1 zuccinni Assorted colored pepers Things you should always have: onions, garlic, olive oil, butter, S&amp;amp;P, chicken stock Aromatics: rosemary, thyme  Directions  Mandolin veggies at 1/8&amp;rdquo;? The thinner it is, the fancier it is. Use a sharp knife on tomatoes instead. Submerge tomatoes boiling water for 30s to make them easier to peel. Red Pepper Soup  Knob of butter + olive oil.</description>
     </item>
     
     <item>
       <title>Youtube to Stems</title>
-      <link>http://www.wilsonzhao.com/blog/youtube-to-stems/</link>
+      <link>https://www.wilsonzhao.com/blog/youtube-to-stems/</link>
       <pubDate>Thu, 30 Jul 2020 20:05:00 -0700</pubDate>
       
-      <guid>http://www.wilsonzhao.com/blog/youtube-to-stems/</guid>
+      <guid>https://www.wilsonzhao.com/blog/youtube-to-stems/</guid>
       <description>After 5 (or is it 6?) months of social isolation, I realized I had an overflowing surplus of time. After a brief relapse into Warcraft III, I decided that surplus time could be better invested elsewhere. That &amp;ldquo;elsewhere&amp;rdquo; turned out to be music.
 I wanted to get better at sound design and learn how to recreate song I like. Yesterday, I had an epiphany: I knew how to code. The following script takes a youtube URL and extracts the stems&amp;ndash;vocals, bassline, drums, and other stuff&amp;ndash;into a predetermined folder.</description>
     </item>
     
     <item>
       <title>Solo Travel: Why?</title>
-      <link>http://www.wilsonzhao.com/blog/solo-travel-why/</link>
+      <link>https://www.wilsonzhao.com/blog/solo-travel-why/</link>
       <pubDate>Wed, 17 Apr 2019 20:39:00 -0700</pubDate>
       
-      <guid>http://www.wilsonzhao.com/blog/solo-travel-why/</guid>
+      <guid>https://www.wilsonzhao.com/blog/solo-travel-why/</guid>
       <description>Context I recently embarked on a journey circumnavigating the world from 1/3/19 to 4/15/19. By writing this series of blog posts, I hope to accomplish several things:
  This blog post serves as a way to unpackage all the thoughts floating rent-free in my head, patiently waiting to be captured by the written word. If I don&amp;rsquo;t write these down, they&amp;rsquo;re going to fade away. It also serves as some sort of guide to future solo travelers (and my colleagues) who have asked me to document some of the findings on my trip, so that they would not repeat the same mistakes I did.</description>
     </item>
     
     <item>
       <title>Solo Travel: How?</title>
-      <link>http://www.wilsonzhao.com/blog/solo-travel-how/</link>
+      <link>https://www.wilsonzhao.com/blog/solo-travel-how/</link>
       <pubDate>Sat, 20 Apr 2019 20:07:00 -0700</pubDate>
       
-      <guid>http://www.wilsonzhao.com/blog/solo-travel-how/</guid>
+      <guid>https://www.wilsonzhao.com/blog/solo-travel-how/</guid>
       <description>On Onebagging It is impractical to lug a 50-pound suitcase if you&amp;rsquo;re constantly moving across country lines. You want the option to carry all your shit with you. Dragging a suitcase across cobblestone streets and over muddy rivers really detracts from the overall travel experience. In addition, if you ever get mugged, you want the option of making a quick getaway. The solution was simple: stuff everything I needed for 3.</description>
     </item>
     
     <item>
       <title>Cats of the Middle East</title>
-      <link>http://www.wilsonzhao.com/blog/cats-of-the-middle-east/</link>
+      <link>https://www.wilsonzhao.com/blog/cats-of-the-middle-east/</link>
       <pubDate>Tue, 28 May 2019 16:35:00 -0700</pubDate>
       
-      <guid>http://www.wilsonzhao.com/blog/cats-of-the-middle-east/</guid>
+      <guid>https://www.wilsonzhao.com/blog/cats-of-the-middle-east/</guid>
       <description>!Taken at the highest mountain of Petra, above the monastery !Ancient Byzantine pillars outside the Ayasofya !Steps in the Christian Quarter of old Jerusalem !On some motorcycle out of Bauhaus Hostel in Istanbul !No clue but its a grumpy cat</description>
     </item>
     
     <item>
       <title>Hello_worlds</title>
-      <link>http://www.wilsonzhao.com/blog/hello_worlds/</link>
+      <link>https://www.wilsonzhao.com/blog/hello_worlds/</link>
       <pubDate>Sat, 14 Jul 2018 18:21:41 -0700</pubDate>
       
-      <guid>http://www.wilsonzhao.com/blog/hello_worlds/</guid>
+      <guid>https://www.wilsonzhao.com/blog/hello_worlds/</guid>
       <description>On a bored Saturday, I realized that my old website (with all my iOS app descriptions and occasionally cringey high school blog posts) died when I spilled a cup of free coffee I got from the 6th floor of the Gates-Hillman center at CMU.
 Most expensive cup of coffee in my life.
 Now that I have a brand new laptop and hopefully much better coffee control, I&amp;rsquo;ve decided to create a new website.</description>
@@ -71,19 +71,19 @@ Now that I have a brand new laptop and hopefully much better coffee control, I&a
     
     <item>
       <title>Recipes</title>
-      <link>http://www.wilsonzhao.com/recipes/recipes/</link>
+      <link>https://www.wilsonzhao.com/recipes/recipes/</link>
       <pubDate>Sat, 22 Aug 2015 06:42:21 -0700</pubDate>
       
-      <guid>http://www.wilsonzhao.com/recipes/recipes/</guid>
+      <guid>https://www.wilsonzhao.com/recipes/recipes/</guid>
       <description>Not intended for external consumption.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://www.wilsonzhao.com/about/</link>
+      <link>https://www.wilsonzhao.com/about/</link>
       <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wilsonzhao.com/about/</guid>
+      <guid>https://www.wilsonzhao.com/about/</guid>
       <description>I attended Mission San Jose High School from 2011-2015.
 I attended Carnegie Mellon University from 2015-2018.
 I graduated one semester early to solo travel for 4.5 months.
@@ -96,10 +96,10 @@ Some of my responbilities include:
     
     <item>
       <title>Home</title>
-      <link>http://www.wilsonzhao.com/home/</link>
+      <link>https://www.wilsonzhao.com/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wilsonzhao.com/home/</guid>
+      <guid>https://www.wilsonzhao.com/home/</guid>
       <description></description>
     </item>
     
