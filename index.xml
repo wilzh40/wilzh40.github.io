@@ -6,7 +6,7 @@
     <description>Recent content on Wilson Zhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 18 Mar 2021 15:07:00 -0700</lastBuildDate>
     
 	<atom:link href="https://www.wilsonzhao.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -66,6 +66,17 @@
       <guid>https://www.wilsonzhao.com/recipes/flume_greenpeace_lead/</guid>
       <description>What a beautiful and haunting synth. Jaw dropped when I first heard this song. Starts at 0:25.
 Ingredients  Osc: Saw  Attack: 190ms Delay: 583ms Sustain: -52dB (?) Release: 200ms (?).    Instructions  There&amp;rsquo;s some crazy pitch bend going on. Have a env pitch bend up into each note. Mono + portomento w/~200ms.  Also applied the same env to a wavetable position on a sq/saw wave in the future, sounds sick.</description>
+    </item>
+    
+    <item>
+      <title>Wagyu</title>
+      <link>https://www.wilsonzhao.com/recipes/wagyu/</link>
+      <pubDate>Thu, 18 Mar 2021 15:07:00 -0700</pubDate>
+      
+      <guid>https://www.wilsonzhao.com/recipes/wagyu/</guid>
+      <description>Figure 1: Sushi-style. The rice is the perfect foil for soaking up meat gusher juices.
+  Wagyu is a very specific breed of Japanese cattle. When the Japanese realized that they can&amp;rsquo;t beat the open pastures of America/Australia with quantity, they were able to do so with quality. After exports opened up in 2012, we were able to source real Wagyu in America.
+I found a website. Texted the number listed.</description>
     </item>
     
     <item>
